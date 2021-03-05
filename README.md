@@ -1,3 +1,3 @@
-# lco-graphql
+# courses-graphql-endpoint
 A standard babel setup
-Starter project setup for upcoming crash courses
+GraphQL endpoint for courses
