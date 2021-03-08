@@ -5,6 +5,7 @@ class Course {
     id,
     { courseName, category, price, language, email, stack, teachingAssists }
   ) {
+    this.id = id;
     this.courseName = courseName;
     this.category = category;
     this.price = price;
