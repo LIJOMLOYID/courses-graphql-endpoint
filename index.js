@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
   res.send("Up and running with GraphQL");
 });
 
-const root = { tp: () => console.log("ThinkPalm Technologies") };
+const root = resolvers;
 
 app.use(
   "/graphql",
